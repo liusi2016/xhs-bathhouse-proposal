@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>郑州洗浴门店 · 小红书推广执行方案</title>
+<style>
+  :root{
+    --bg:#FAF9F6;--card:#FFFFFF;--ink:#2B2A28;--ink-2:#6B6862;--ink-3:#9A968E;
+    --line:#EAE6DF;--clay:#B5654A;--clay-soft:#F6EBE6;--red:#A32D2D;--red-soft:#FCEBEB;
+    --moss:#6B7F5E;--moss-soft:#EDF1E9;--gold:#B8912F;--gold-soft:#F8F2DF;
+    --shadow:0 1px 3px rgba(43,42,40,.04),0 8px 28px rgba(43,42,40,.05);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;line-height:1.7;-webkit-font-smoothing:antialiased;padding:40px 20px 80px}
+  .wrap{max-width:1080px;margin:0 auto}
+  header{margin-bottom:32px;padding-bottom:26px;border-bottom:2px solid var(--ink)}
+  .eyebrow{font-size:12px;letter-spacing:.18em;color:var(--clay);font-weight:700;margin-bottom:12px}
+  h1{font-size:32px;line-height:1.35;letter-spacing:-.02em;font-weight:800}
+  .sub{margin-top:10px;color:var(--ink-2);font-size:14px}
+  .meta{display:flex;gap:10px;flex-wrap:wrap;margin-top:18px}
+  .tag{font-size:12px;color:var(--ink-2);background:var(--card);border:1px solid var(--line);border-radius:20px;padding:5px 13px}
+  section{margin-top:42px}
+  h2{font-size:19px;font-weight:800;letter-spacing:-.01em;margin-bottom:6px;display:flex;align-items:center;gap:10px}
+  h2 .num{font-size:12px;color:#fff;background:var(--ink);width:22px;height:22px;border-radius:6px;display:inline-flex;align-items:center;justify-content:center;font-weight:700}
+  .lead{color:var(--ink-2);font-size:13.5px;margin-bottom:18px}
+  .hero{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px;box-shadow:var(--shadow);margin-bottom:16px}
+  .hero-top{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:16px}
+  .hero .intro{font-size:15px;font-weight:700;max-width:560px;line-height:1.65}
+  .hero .intro span{color:var(--clay)}
+  .hero .goal{text-align:right}
+  .hero .goal .g1{font-size:38px;font-weight:800;letter-spacing:-.03em;line-height:1.1;color:var(--moss)}
+  .hero .goal .g2{font-size:12px;color:var(--ink-2);margin-top:4px}
+  .kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+  .kpi{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow);position:relative;overflow:hidden}
+  .kpi::before{content:"";position:absolute;top:0;left:0;right:0;height:3px;background:var(--clay)}
+  .kpi:nth-child(2)::before{background:var(--moss)}
+  .kpi:nth-child(3)::before{background:var(--gold)}
+  .kpi:nth-child(4)::before{background:var(--ink-3)}
+  .kpi .label{font-size:12px;color:var(--ink-2);margin-bottom:8px}
+  .kpi .value{font-size:29px;font-weight:800;letter-spacing:-.03em;line-height:1.1}
+  .kpi .unit{font-size:14px;font-weight:600;margin-left:2px}
+  .kpi .note{font-size:11.5px;color:var(--ink-3);margin-top:8px;line-height:1.5}
+  .ok{color:var(--moss)}
+  .tbl-wrap{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow)}
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{background:#F5F2ED;color:var(--ink-2);font-weight:700;text-align:left;padding:12px 14px;font-size:12px;white-space:nowrap}
+  td{padding:12px 14px;border-top:1px solid var(--line);vertical-align:middle}
+  tbody tr:hover{background:#FCFBF9}
+  td.num,th.num{text-align:right;font-variant-numeric:tabular-nums}
+  .tfoot td{background:#F5F2ED;font-weight:800;border-top:2px solid var(--ink)}
+  .pill{display:inline-block;font-size:11px;padding:2px 9px;border-radius:12px;font-weight:700}
+  .p-clay{background:var(--clay-soft);color:var(--clay)}
+  .p-moss{background:var(--moss-soft);color:var(--moss)}
+  .p-gold{background:var(--gold-soft);color:var(--gold)}
+  .p-gray{background:#F0EEE9;color:var(--ink-2)}
+  .small{font-size:11.5px;color:var(--ink-3);line-height:1.5}
+  .bar{height:22px;border-radius:4px;display:flex;overflow:hidden;margin:6px 0 4px;font-size:11px;font-weight:700;color:#fff}
+  .bar .b1{background:var(--clay);display:flex;align-items:center;justify-content:center}
+  .bar .b2{background:var(--moss);display:flex;align-items:center;justify-content:center}
+  .callout{background:var(--moss-soft);border-left:3px solid var(--moss);border-radius:0 10px 10px 0;padding:16px 20px;font-size:13.5px;color:#374A2C;margin-top:16px}
+  .callout strong{color:var(--moss)}
+  .callout.warn{background:var(--gold-soft);border-color:var(--gold);color:#5C4713}
+  .callout.warn strong{color:var(--gold)}
+  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+  .box{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:20px;box-shadow:var(--shadow)}
+  .box h3{font-size:14px;font-weight:800;margin-bottom:12px;display:flex;align-items:center;gap:8px}
+  .box h3 .dot{width:8px;height:8px;border-radius:50%;background:var(--moss)}
+  .box.clay h3 .dot{background:var(--clay)}
+  .box ul{list-style:none;font-size:12.5px;color:var(--ink-2)}
+  .box li{padding:6px 0 6px 18px;position:relative;border-bottom:1px dashed var(--line)}
+  .box li:last-child{border-bottom:none}
+  .box li::before{content:"›";position:absolute;left:2px;color:var(--moss);font-weight:800}
+  .box.clay li::before{color:var(--clay)}
+  .formula{background:#F5F2ED;border-radius:10px;padding:14px 16px;font-size:12.5px;color:var(--ink-2);margin-top:14px;line-height:1.85}
+  .formula code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--ink);background:#fff;padding:2px 6px;border-radius:4px;font-size:12px}
+  .flow{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-top:8px}
+  .step{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;box-shadow:var(--shadow)}
+  .step .n{font-size:11px;color:var(--clay);font-weight:800;letter-spacing:.1em;margin-bottom:8px}
+  .step h4{font-size:13px;font-weight:800;margin-bottom:6px}
+  .step p{font-size:11.5px;color:var(--ink-3);line-height:1.6}
+  footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-3);line-height:1.8}
+  @media(max-width:820px){.kpis,.flow{grid-template-columns:repeat(2,1fr)}.grid2{grid-template-columns:1fr}}
+  @media(max-width:560px){.kpis,.flow{grid-template-columns:1fr}h1{font-size:25px}.tbl-wrap{overflow-x:auto}table{min-width:660px}}
+  @media print{body{background:#fff;padding:0}.kpi,.box,.step,.tbl-wrap,.hero{box-shadow:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">XIAOHONGSHU · EXECUTION PROPOSAL</div>
+  <h1>郑州洗浴门店 · 小红书推广执行方案</h1>
+  <div class="sub">总预算 5 万元 · 30 位本地达人矩阵 + 精准流量放大 · 内容声量与到店转化并重</div>
+  <div class="meta">
+    <span class="tag">预算 ¥50,000</span>
+    <span class="tag">本地达人 30 位</span>
+    <span class="tag">达人投入 ¥40,000</span>
+    <span class="tag">流量放大 ¥10,000</span>
+    <span class="tag">CPE &lt; 5 元</span>
+  </div>
+</header>
+
+<section>
+  <div class="hero">
+    <div class="hero-top">
+      <div class="intro">用 <span>5 万元</span>搭建「30 位本地达人真实体验内容矩阵」：四个粉丝层级的郑州同城达人实地到店、产出真实笔记，形成密集的内容覆盖与搜索占位；再以 1 万元精准流量放大优质笔记，实现内容声量与互动效率的平衡。</div>
+      <div class="goal">
+        <div class="g1">30 位</div>
+        <div class="g2">本地达人内容矩阵</div>
+      </div>
+    </div>
+  </div>
+  <div class="kpis">
+    <div class="kpi">
+      <div class="label">合作达人</div>
+      <div class="value">30<span class="unit">位</span></div>
+      <div class="note">覆盖腰部到 KOC 四个层级</div>
+    </div>
+    <div class="kpi">
+      <div class="label">达人内容投入</div>
+      <div class="value">4<span class="unit">万元</span></div>
+      <div class="note">占总预算 80%，内容为主体</div>
+    </div>
+    <div class="kpi">
+      <div class="label">整体预估曝光</div>
+      <div class="value">70.4<span class="unit">万</span></div>
+      <div class="note">内容 39.1 万 + 付费 31.3 万</div>
+    </div>
+    <div class="kpi">
+      <div class="label">预估 CPE</div>
+      <div class="value ok">4.36<span class="unit">元</span></div>
+      <div class="note">低于 5 元目标</div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">1</span>5 万预算怎么分</h2>
+  <p class="lead">预算以达人内容为主体：4 万用于达人合作，1 万用于流量放大。把钱花在真实内容上，用密集的达人笔记撑起声量和搜索占位。</p>
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr><th>预算科目</th><th class="num">金额</th><th class="num">占比</th><th>用途说明</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="pill p-clay">达人内容费</span></td><td class="num">40,000 元</td><td class="num">80%</td><td class="small">30 位郑州同城达人合作费用（含 700 元机动预留，用于优质达人加码与临时补位）</td></tr>
+        <tr><td><span class="pill p-moss">流量放大费</span></td><td class="num">10,000 元</td><td class="num">20%</td><td class="small">薯条加热 + 信息流投放，重点放大互动表现突出的达人笔记，定向郑州本地人群</td></tr>
+        <tr class="tfoot"><td>合计</td><td class="num">50,000 元</td><td class="num">100%</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div style="padding:16px 20px;background:var(--card);border:1px solid var(--line);border-radius:14px;margin-top:14px;box-shadow:var(--shadow)">
+    <div style="font-size:12px;color:var(--ink-2);margin-bottom:4px">预算结构</div>
+    <div class="bar"><div class="b1" style="width:80%">达人内容 80%</div><div class="b2" style="width:20%">流量放大 20%</div></div>
+    <div class="small">以达人内容为主体，30 篇真实到店笔记形成内容密度与搜索占位；1 万流量预算用于择优加热，放大跑得好的内容。</div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">2</span>达人档位配置与合作数量</h2>
+  <p class="lead">30 位达人分四个层级：腰部撑内容质量与声量，中部与初级构成主力，KOC 铺量做口碑密度与搜索占位。全部为郑州同城、有真实到店内容产出能力的账号。</p>
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>达人档位</th><th>粉丝区间</th><th class="num">合作数量</th><th class="num">单价</th>
+          <th class="num">档位小计</th><th class="num">单篇曝光</th><th class="num">自然曝光小计</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="pill p-clay">腰部达人</span></td><td>3 万–6 万</td><td class="num">2 位</td><td class="num">4,000</td><td class="num">8,000</td><td class="num">15,000</td><td class="num">30,000</td></tr>
+        <tr><td><span class="pill p-gold">中部达人</span></td><td>1 万–3 万</td><td class="num">10 位</td><td class="num">1,600</td><td class="num">16,000</td><td class="num">6,000</td><td class="num">60,000</td></tr>
+        <tr><td><span class="pill p-moss">初级达人</span></td><td>5 千–1 万</td><td class="num">9 位</td><td class="num">1,100</td><td class="num">9,900</td><td class="num">3,000</td><td class="num">27,000</td></tr>
+        <tr><td><span class="pill p-gray">KOC 铺量</span></td><td>1 千–5 千</td><td class="num">9 位</td><td class="num">600</td><td class="num">5,400</td><td class="num">1,500</td><td class="num">13,500</td></tr>
+        <tr><td><span class="pill p-gray">机动预留</span></td><td>优质加码</td><td class="num">—</td><td class="num">—</td><td class="num">700</td><td class="num">—</td><td class="num">—</td></tr>
+        <tr class="tfoot"><td>合计</td><td>—</td><td class="num">30 位</td><td class="num">均价 1,310</td><td class="num">40,000</td><td class="num">—</td><td class="num">130,500</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="callout"><strong>选人标准：</strong>同城粉丝占比 &gt; 70% ＞ 评论区有真实问询（「在哪」「周末去」）＞ 有环境实拍能力 ＞ 粉丝量。腰部负责内容定调与声量，中部与初级构成转化主力，KOC 负责搜索占位和口碑密度。全部现金合作、真实到店，不用低价直发账号凑数。</div>
+</section>
+
+<section>
+  <h2><span class="num">3</span>曝光量测算</h2>
+  <p class="lead">曝光由三部分组成：达人笔记首发自然曝光、笔记在搜索场景里的长尾曝光、以及流量放大的付费曝光。三项相加，预估 70.4 万。</p>
+  <div class="tbl-wrap">
+    <table>
+      <thead>
+        <tr><th>曝光来源</th><th class="num">曝光量</th><th class="num">占比</th><th>说明</th></tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="pill p-clay">达人首发自然曝光</span></td><td class="num">130,500</td><td class="num">18.5%</td><td class="small">30 篇笔记首发的自然流量，按各档位中位数估算</td></tr>
+        <tr><td><span class="pill p-gold">达人长尾曝光</span></td><td class="num">261,000</td><td class="num">37.1%</td><td class="small">笔记发布后 30 天内的搜索与推荐长尾，按首发曝光 2 倍估算</td></tr>
+        <tr><td><span class="pill p-moss">付费放大曝光</span></td><td class="num">312,500</td><td class="num">44.4%</td><td class="small">1 万投流，按 CPM 32 元测算，定向郑州本地人群</td></tr>
+        <tr class="tfoot"><td>整体总曝光</td><td class="num">704,000</td><td class="num">100%</td><td>约 70.4 万</td></tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="formula">
+    <strong>CPE 测算：</strong>达人自然互动 130,500×4% = 5,220，付费流量互动 312,500×2% = 6,250，合计 <strong>11,470 次互动</strong>。<br>
+    <code>CPE = 50,000 ÷ 11,470 ≈ 4.36 元</code>，低于 5 元目标。
+  </div>
+  <div class="callout warn"><strong>口径提示：</strong>本方案以内容覆盖为核心，30 位达人形成密集内容声量，预估曝光约 70.4 万。若项目对曝光量有更高要求（如 125 万+），需相应提高流量放大预算——曝光量与达人数量在此预算下存在取舍关系，可在执行中依数据动态调整。</div>
+</section>
+
+<section>
+  <h2><span class="num">4</span>目标保障机制</h2>
+  <p class="lead">30 位达人分批发布，用数据筛选优质内容重点放大，确保内容声量与互动效率达标。</p>
+  <div class="flow">
+    <div class="step"><div class="n">STEP 01</div><h4>达人分层发布</h4><p>腰部与中部达人先行，测试内容方向与互动数据，为后续 KOC 铺量提供参照。</p></div>
+    <div class="step"><div class="n">STEP 02</div><h4>数据筛选放大</h4><p>发布后 48 小时筛选互动率高的笔记，把 1 万流量预算集中投入到表现最好的内容上。</p></div>
+    <div class="step"><div class="n">STEP 03</div><h4>第 7 天中期校准</h4><p>用真实曝光与 CPE 数据回填，若进度落后及时调整出价、人群包与内容方向。</p></div>
+    <div class="step"><div class="n">STEP 04</div><h4>长尾搜索承接</h4><p>所有笔记埋「郑州+区域+洗浴/汤泉」关键词并挂门店定位，持续承接搜索流量。</p></div>
+  </div>
+</section>
+
+<section>
+  <h2><span class="num">5</span>执行要点与前期准备</h2>
+  <div class="grid2">
+    <div class="box clay">
+      <h3><span class="dot"></span>内容合规与质量</h3>
+      <ul>
+        <li>主打放松、养生、社交场景，避免任何擦边表述导致限流</li>
+        <li>每篇笔记必须挂门店地理位置，埋本地搜索关键词</li>
+        <li>要求真实到店、环境实拍、真人出镜，不用套模板内容</li>
+        <li>商业笔记占比控制，避免被判定营销号降权</li>
+      </ul>
+    </div>
+    <div class="box">
+      <h3><span class="dot"></span>转化与核销</h3>
+      <ul>
+        <li>设置小红书专属团购券 / 优惠码，把种草与到店对上账</li>
+        <li>评论区置顶地址、营业时间与预约方式，缩短决策路径</li>
+        <li>以团购券核销量作为最终效果校验指标</li>
+        <li>第 7 天、第 14 天各出一次数据复盘，动态调整内容方向</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<footer>
+  本方案曝光与 CPE 为基于郑州本地达人报价、平台流量单价行业区间的预估模型，实际结果受内容质量、发布节奏与平台算法影响，以执行期后台真实数据为准。<br>
+  方案配套中期校准机制，确保最终交付向目标收敛。报价与投放单价以实际签约和平台后台为准。
+</footer>
+
+</div>
+</body>
+</html>
